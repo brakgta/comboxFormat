@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comboxFormat", "comboxFormat\comboxFormat.csproj", "{C15833DB-1CA8-45DB-BAB5-DFB449AE868E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C15833DB-1CA8-45DB-BAB5-DFB449AE868E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15833DB-1CA8-45DB-BAB5-DFB449AE868E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15833DB-1CA8-45DB-BAB5-DFB449AE868E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15833DB-1CA8-45DB-BAB5-DFB449AE868E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAC2C1A0-99C5-4049-8B01-E934B14476E9}
+	EndGlobalSection
+EndGlobal
