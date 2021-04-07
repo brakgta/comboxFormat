@@ -30,15 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ErpBS100">
-      <HintPath>..\..\..\..\..\..\Program Files\PRIMAVERA\SG100\Apl\ErpBS100.dll</HintPath>
-    </Reference>
-    <Reference Include="StdBE100">
-      <HintPath>..\..\..\..\..\..\Program Files\PRIMAVERA\SG100\Apl\StdBE100.dll</HintPath>
-    </Reference>
-    <Reference Include="StdPlatBS100">
-      <HintPath>..\..\..\..\..\..\Program Files\PRIMAVERA\SG100\Apl\StdPlatBS100.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
