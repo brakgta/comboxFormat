@@ -9,7 +9,7 @@ namespace comboxFormat
         public bool MostrarSubItem;
         public int indexSubItem;
         public string SelectedValue = "";
-        public int CBMaltura = 110;
+        public int CBMaltura = 115;
         public int ListViewLargura;
         public View MododeVizualização = View.Details;
         public bool MostraHeader;
@@ -80,15 +80,16 @@ namespace comboxFormat
         }
         public string AssociaListBox(bool subitem, int indexsubitem)
         {
+            string item = null;
             if (subitem)
-                return listView1.FindItemWithText(comboBox1page1.SelectedItem.ToString(), true, 0).SubItems[indexsubitem].Text == null?
+                item = listView1.FindItemWithText(comboBox1page1.SelectedItem.ToString(), true, 0).SubItems[indexsubitem].Text == null?
                     "" : 
                     listView1.FindItemWithText(comboBox1page1.SelectedItem.ToString(), true, 0).SubItems[indexsubitem].Text;
             else
-                return  listView1.FindItemWithText(comboBox1page1.SelectedItem.ToString(), true, 0).Text == null ?
+                item = listView1.FindItemWithText(comboBox1page1.SelectedItem.ToString(), true, 0).Text == null ?
                     "" :
                     listView1.FindItemWithText(comboBox1page1.SelectedItem.ToString(), true, 0).Text;
-             
+            return item;
         }
     }
 }
